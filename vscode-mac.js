@@ -39,5 +39,7 @@
   "eslint.alwaysShowStatus": true,
   "files.defaultLanguage": "markdown",
   "gitlens.historyExplorer.enabled": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontFamily": "'Operator Mono Light', 'Inconsolata for Powerline', Inconsolata, Consolas",
+  "terminal.integrated.fontSize": 15
 }
