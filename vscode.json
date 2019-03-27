@@ -1,0 +1,53 @@
+{
+  "editor.cursorBlinking": "solid",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Operator Mono', Inconsolata, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 20,
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80,
+    100,
+    120
+  ],
+  "editor.selectionHighlight": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "files.defaultLanguage": "markdown",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "gitlens.historyExplorer.enabled": true,
+  "sync.askGistName": false,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "sync.gist": "f57c1373bd67f4768ec7ab3195b2f7a7",
+  "sync.host": "",
+  "sync.lastDownload": "",
+  "sync.lastUpload": "2018-05-02T20:44:22.052Z",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.fontFamily": "'Operator Mono Light', 'Inconsolata for Powerline', 'Incolsolata', 'Consolas'",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/john.milazzo/.vscodestyles.css"
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.title": "${activeEditorLong}${separator}${dirty}",
+  "workbench.colorTheme": "Cobalt2",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "importCost.smallPackageColor": "#00ff00",
+  "importCost.mediumPackageColor": "#0000ff",
+  "importCost.largePackageColor": "#ff0000",
+  "eslint.nodePath": "C:/Users/john.milazzo/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/john/.nvm/versions/node/v10.6.0/lib/node_modules"
+}
