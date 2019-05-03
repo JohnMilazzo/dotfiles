@@ -1,0 +1,84 @@
+{
+  "breadcrumbs.enabled": true,
+
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Operator Mono Light', Inconsolata, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 20,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 100, 120],
+  "editor.selectionHighlight": false,
+  "editor.tabSize": 2,
+  "[css]": {
+    "editor.tabSize": 4
+  },
+  "editor.wordWrap": "on",
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+
+  "files.defaultLanguage": "markdown",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "launch": {
+    "configurations": [
+      {
+        "name": "Launch",
+        "type": "node",
+        "request": "launch",
+        "useWSL": true
+      }
+    ],
+    "compounds": []
+  },
+
+  "markdownlint.config": {
+    "MD033": false
+  },
+
+  "prettier.disableLanguages": ["js"],
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+
+  "terminal.integrated.fontFamily": "'Operator Mono Light', 'Inconsolata for Powerline', 'Incolsolata', 'Consolas'",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/john.milazzo/.vscodestyles.css"
+  ],
+
+  "window.title": "${activeEditorLong}${separator}${dirty}",
+  "window.titleBarStyle": "custom",
+
+  "workbench.colorTheme": "Night Owl",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000C1D",
+    "activityBar.border": "#102a44",
+    "sideBar.background": "#001122",
+    "sideBar.border": "#102a44",
+    "sideBar.foreground": "#8BADC1",
+    "titleBar.activeBackground": "#d12229",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#811519",
+    "titleBar.inactiveForeground": "#cccccc"
+  }
+}
