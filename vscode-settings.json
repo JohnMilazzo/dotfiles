@@ -2,7 +2,7 @@
   "breadcrumbs.enabled": true,
   "editor.detectIndentation": false,
   "editor.fontFamily": "'Operator Mono Light', Inconsolata, Consolas, 'Courier New', monospace",
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
@@ -26,6 +26,17 @@
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "launch": {
+    "configurations": [
+      {
+        "name": "Launch",
+        "type": "node",
+        "request": "launch",
+        "useWSL": true
+      }
+    ],
+    "compounds": []
+  },
   "markdownlint.config": {
     "MD033": false
   },
@@ -40,23 +51,20 @@
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "vscode_custom_css.imports": [
-    "file:///c:/Users/john.milazzo/.vscodestyles.css"
-  ],
   "window.title": "${activeEditorLong}${separator}${dirty}",
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "Dark+ Material",
-  "workbench.editor.highlightModifiedTabs": true,
-  "files.exclude": {
-    "**/.cache": true
-  },
-  "debug.console.fontSize": 20,
-  "markdown.preview.fontSize": 20,
+  "vsicons.dontShowNewVersionMessage": true,
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
-  "workbench.panel.defaultLocation": "right",
-  "files.watcherExclude": {
-    "**/public/**": true
+  "editor.cursorStyle": "underline",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "vsonline.planFilter": "/subscriptions/a1405b8f-054d-4bc7-868b-78af7d513d44/resourceGroups/vso-rg-169e81d/providers/Microsoft.VSOnline/plans/vso-plan-eastus",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }
