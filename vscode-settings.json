@@ -1,8 +1,15 @@
 {
   "breadcrumbs.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.cursorStyle": "underline",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.detectIndentation": false,
-  "editor.fontFamily": "'Operator Mono Light', Inconsolata, Consolas, 'Courier New', monospace",
-  "editor.fontSize": 20,
+  "editor.fontFamily": "MesloLGS NF, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 22,
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
@@ -14,29 +21,20 @@
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "all",
   "editor.selectionHighlight": false,
+  "editor.suggestSelection": "first",
   "editor.tabSize": 2,
-  "[css]": {
-    "editor.tabSize": 4
-  },
   "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "emmet.triggerExpansionOnTab": true,
-  "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
+  "faunadb.adminSecretKey": "fnADsL2ko-ACE8ZITNx8pyxzR8zTOZgibU-aKCJD",
   "files.defaultLanguage": "markdown",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "launch": {
-    "configurations": [
-      {
-        "name": "Launch",
-        "type": "node",
-        "request": "launch",
-        "useWSL": true
-      }
-    ],
-    "compounds": []
-  },
+  "markdown.preview.fontSize": 20,
   "markdownlint.config": {
     "MD033": false
   },
@@ -47,24 +45,13 @@
   "prettier.trailingComma": "none",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "terminal.integrated.fontFamily": "'Operator Mono Light', 'Inconsolata for Powerline', 'Incolsolata', 'Consolas'",
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.cursorBlinking": true,
   "window.title": "${activeEditorLong}${separator}${dirty}",
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "Dark+ Material",
-  "vsicons.dontShowNewVersionMessage": true,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.cursorStyle": "underline",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "window.zoomLevel": 0,
-  "vsonline.planFilter": "/subscriptions/a1405b8f-054d-4bc7-868b-78af7d513d44/resourceGroups/vso-rg-169e81d/providers/Microsoft.VSOnline/plans/vso-plan-eastus",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  "workbench.tree.indent": 20
 }
