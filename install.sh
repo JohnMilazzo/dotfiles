@@ -39,7 +39,7 @@ git pull origin master;
 # function to sync the files from the repo to the home directory
 function syncFiles() {
 	rsync --exclude ".git/" \
-		--exclude "bootstrap.sh" \
+		--exclude "install.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
