@@ -31,6 +31,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 # now let's customize our config files
 
 # make sure we're in the directory of this file
+echo "BASH_SOURCE =" $BASH_SOURCE
 cd "$(dirname "${BASH_SOURCE}")";
 
 # pull down the latest version of this repo
