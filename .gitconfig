@@ -1,3 +1,8 @@
 [user]
 	email = github@johnmilazzo.com
 	name = John Milazzo
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+[initi]
+	defaultBranch = main
